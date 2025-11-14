@@ -3,7 +3,9 @@
 백준(BOJ) · 프로그래머스(Programmers) · Java · Kotlin
 
 꾸준한 문제 풀이와 자료구조·알고리즘 학습 기록을 정리하는 공간입니다.
+
 언어는 Java / Kotlin 두 가지로 풀이하며, 카테고리와 플랫폼별로 나누어 관리합니다.
+
 ---
 
 # 📂 Directory Structure
