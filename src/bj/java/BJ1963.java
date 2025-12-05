@@ -58,8 +58,10 @@ public class BJ1963 {
 				char original = curArr[i];
 
 				for (char d = '0'; d <= '9'; d++) {
-					if (i == 0 && d == '0') continue; // 1000 이상 유지
-					if (curArr[i] == d) continue;
+					if (i == 0 && d == '0')
+						continue; // 1000 이상 유지
+					if (curArr[i] == d)
+						continue;
 
 					curArr[i] = d;
 					int next = Integer.parseInt(new String(curArr));
@@ -84,7 +86,8 @@ public class BJ1963 {
 		isPrime[1] = false;
 
 		for (int i = 2; i <= Math.sqrt(10000); i++) {
-			if (!isPrime[i]) continue;
+			if (!isPrime[i])
+				continue;
 			for (int j = i * i; j < 10000; j += i) {
 				isPrime[j] = false;
 			}
@@ -97,3 +100,4 @@ public class BJ1963 {
 			}
 		}
 	}
+}
