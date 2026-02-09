@@ -42,7 +42,7 @@ public class BJ12886 {
 
 		int sum = A + B + C;
 
-		// 🔥 필수 조건
+		// 필수 조건
 		if (sum % 3 != 0) {
 			System.out.println(0);
 			return;
